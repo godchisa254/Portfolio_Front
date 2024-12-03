@@ -46,29 +46,6 @@ ul {
 .projects a:hover {
     text-decoration: underline;
 }
-form {
-    display: flex;
-    flex-direction: column;
-}
-form label {
-    margin-top: 10px;
-}
-form input, form textarea, form button {
-    margin-top: 5px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-form button {
-    background-color: #007acc;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-form button:hover {
-    background-color: #005f99;
-}
 .socials a {
     margin-right: 10px;
     text-decoration: none;
@@ -84,4 +61,10 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007acc;
+    color: white;
 }
