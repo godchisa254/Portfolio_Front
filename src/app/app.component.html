@@ -3,98 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@1.7.0/dist/flowbite.js"></script>
     <title>Portafolios Matias Salas Villanueva</title>
   </head>
-  <body>
-    <header>
-      <img [src]="profilePicPath" alt="Foto perfil" />
-      <h3>Matías Salas Villanueva</h3>
-      <p>
-        Apasionado por la ciencia de datos, sistemas de control y tecnologías de
-        vanguardia
-      </p>
+  <body class="bg-[#253b63] text-[#333] font-Montserrat ">
+    <!-- Header -->
+    <header class="text-center p-5 bg-[#007acc] text-white">
+      <img [src]="profilePicPath" alt="Foto perfil" class="h-auto max-w-xs rounded-full mx-auto mb-4" />
+      <h3 class="font-bold text-[2.1em]">Matías Salas Villanueva</h3>
+      <p class="text-lg">Apasionado por la ciencia de datos, sistemas de control y tecnologías de vanguardia</p>
     </header>
-    <section>
-      <h2>Sobre mí</h2>
+
+    <!-- Sobre mí -->
+    <section class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
+      <h2 class="text-2xl font-bold text-[#007acc] mb-4">Sobre mí</h2>
       <p>
-        Soy un joven estudiante de pregrado de
-        <strong>Ingeniería Civil en Computación e Informática </strong> en la
-        Universidad Católica del Norte, apasionado por la ciencia de datos y el
-        aprendizaje continuo. Me caracterizo por ser proactivo, responsable y
-        analítico, con una gran perseverancia para alcanzar los objetivos.
-        Siempre me encuentro mejorando mis habilidades de liderazgo y trabajo en
-        equipo, priorizando siempre una comunicación clara y efectiva en cada
-        proyecto y desafío.
+        Soy un joven estudiante de pregrado de <strong>Ingeniería Civil en Computación e Informática</strong> en la
+        Universidad Católica del Norte, apasionado por la ciencia de datos y el aprendizaje continuo. Me caracterizo por
+        ser proactivo, responsable y analítico, con una gran perseverancia para alcanzar los objetivos. Siempre me
+        encuentro mejorando mis habilidades de liderazgo y trabajo en equipo, priorizando siempre una comunicación clara
+        y efectiva en cada proyecto y desafío.
       </p>
     </section>
-    <section>
-      <h2>Rol Profesional</h2>
+
+    <!-- Rol Profesional -->
+    <section class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
+      <h2 class="text-2xl font-bold text-[#007acc] mb-4">Rol Profesional</h2>
       <p>
-        Aspirante a <strong>Senior Data Scientist </strong> con enfoque en
-        Inteligencia Artificial Predictiva y desarrollarme en todas las
-        discplinas afines, como las son la Ingeniería, Recolección y Análisis de
-        Datos.
+        Aspirante a <strong>Senior Data Scientist</strong> con enfoque en Inteligencia Artificial Predictiva y
+        desarrollarme en todas las disciplinas afines, como lo son la Ingeniería, Recolección y Análisis de Datos.
       </p>
     </section>
-    <section>
-      <h2>Habilidades Técnicas</h2>
-      <ul>
+
+    <!-- Habilidades Técnicas -->
+    <section class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
+      <h2 class="text-2xl font-bold text-[#007acc] mb-4">Habilidades Técnicas</h2>
+      <ul class="list-disc pl-6">
         <li>Lenguajes: SQL, Python, C#, Java.</li>
-        <li>
-          Frameworks: .NET, Angular, Python para Visualización y Ciencia de
-          Datos.
-        </li>
-        <li>
-          Herramientas y librerías: Cloudinary, Git, Pandas, Scikit Learn,
-          Excel, Word Office.
-        </li>
+        <li>Frameworks: .NET, Angular, Python para Visualización y Ciencia de Datos.</li>
+        <li>Herramientas y librerías: Cloudinary, Git, Pandas, Scikit Learn, Excel, Word Office.</li>
         <li>Base de datos: MySQL, Microsoft SQL Server.</li>
       </ul>
     </section>
-    <section>
-      <h2>Competencias</h2>
-      <ul>
+
+    <!-- Competencias -->
+    <section class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
+      <h2 class="text-2xl font-bold text-[#007acc] mb-4">Competencias</h2>
+      <ul class="list-disc pl-6">
+        <a>Trabajo en equipo - Responsable - Analítico - Perseverancia - Liderazgo - Comunicador efectivo - Proactividad - Disciplina - Flexible - Rápido en aprender - Bueno bajo presión</a>
+      </ul>
+    </section>
+
+    <!-- Proyectos Personales -->
+    <section class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
+      <h2 class="text-2xl font-bold text-[#007acc] mb-4">Proyectos Personales</h2>
+      <ul class="list-disc pl-6">
         <li>
-          Trabajo en equipo - Responsable - Analítico - Perseverancia -
-          Liderazgo - Comunicador efectivo - Proactividad - Disciplina -
-          Flexible - Rápido en aprender - Bueno bajo presión.
+          <strong>Plataforma E-Commerce:</strong> He desarrollado una API escalable para Comercios Digitales.
+          <a href="https://github.com/godchisa254/API-E-Commerce" class="text-[#007acc] hover:underline">Ver en GitHub</a>
+        </li>
+        <li>
+          <strong>Portafolios Personal:</strong> He diseñado e implementado este portafolios.
+          <a href="https://github.com/godchisa254" class="text-[#007acc] hover:underline">Ver en GitHub</a>
         </li>
       </ul>
     </section>
-    <section class="projects">
-      <h2>Proyectos Personales</h2>
-      <ul>
+
+    <!-- Proyectos Personales -->
+    <section class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg mt-8">
+      <h2 class="text-2xl font-bold text-[#007acc] mb-4">Proyectos Personales</h2>
+      <ul class="list-disc pl-6">
         <li>
-          <strong>Plataforma E-Commerce:</strong> He desarrollado una API
-          escalable para Comercios Digitales.
-          <a href="https://github.com/godchisa254/API-E-Commerce"
-            >Ver en GitHub</a
-          >
+          <strong>Plataforma E-Commerce:</strong> He desarrollado una API escalable para Comercios Digitales.
+          <a href="https://github.com/godchisa254/API-E-Commerce" class="text-[#007acc] hover:underline">Ver en GitHub</a>
         </li>
         <li>
-          <strong>Portafolios Personal:</strong> He diseñado e implementado este
-          portafolios.
-          <a href="https://github.com/godchisa254">Ver en GitHub</a>
+          <strong>Portafolios Personal:</strong> He diseñado e implementado este portafolios.
+          <a href="https://github.com/godchisa254" class="text-[#007acc] hover:underline">Ver en GitHub</a>
         </li>
       </ul>
     </section>
-    <section class="socials">
-      <h2>Perfiles Laborales</h2>
-      <a
-        href="https://www.linkedin.com/in/matias-salas-villanueva"
-        target="_blank"
-        >LinkedIn</a
-      >
-      <a href="https://github.com/godchisa254" target="_blank">GitHub</a>
+
+    <!-- Perfiles Laborales -->
+    <section class="text-center mt-8 max-w-[900px] mx-auto p-5 bg-white rounded-lg shadow-md" >
+      <h2 class="text-2xl font-bold text-[#007acc] mb-4">Perfiles Laborales</h2>
+      <a href="https://www.linkedin.com/in/matias-salas-villanueva" target="_blank" class="text-[#007acc] hover:underline mx-2">LinkedIn</a>
+      <a href="https://github.com/godchisa254" target="_blank" class="text-[#007acc] hover:underline mx-2">GitHub</a>
     </section>
-    <section class="form-section">
+
+    
+    <!-- Formulario -->
+    <section class="mt-8">
       <app-formulario></app-formulario>
-    </section>    
-    <footer>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#007acc] text-white text-center py-4 mt-8">
       <p>© 2021 Matías Salas Villanueva. Todos los derechos reservados.</p>
     </footer>
   </body>
