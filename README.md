@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
+## How to prepare this project
+Once cloned or downloaded you will get into the root's project terminal and type `npm install` once it deploys a "success" message, you can proceed with the `ng serve` command.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
